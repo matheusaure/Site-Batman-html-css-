@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./Batman.png" type="image/png">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./OIP.jpeg" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contatos</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentario.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="comments-container">
+        <h1>Comentários dos Fãs</h1>
+
+        <!-- Formulário para adicionar um novo comentário -->
+        <form id="comment-form">
+            <div class="form-group">
+                <label for="username">Nome:</label>
+                <input type="text" id="username" name="username" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+                <label for="comment">Comentário:</label>
+                <textarea id="comment" name="comment" rows="5" placeholder="Escreva seu comentário" required></textarea>
+            </div>
+            <button type="submit" class="button">Enviar Comentário</button>
+        </form>
+
+        <!-- Área onde os comentários serão exibidos -->
+        <div id="comments-section">
+            <div class="comment">
+                <h3>João</h3>
+                <p>Amei o filme! Robert Pattinson está incrível como Batman.</p>
+            </div>
+            <div class="comment">
+                <h3>Maria</h3>
+                <p>A direção e o roteiro são excepcionais. Um dos melhores filmes do ano!</p>
+            </div>
+            <!-- Adicione mais comentários aqui -->
+        </div>
+    </main>
+
+    <footer>
+        <img id="logo" src="./OIP.jpeg" alt="Logo do Batman" />
+        <span>Todos os direitos reservados &copy;</span>
+        <span>Desenvolvido por: Aurelio Web Design</span>
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contatos</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentario.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
